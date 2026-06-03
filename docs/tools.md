@@ -39,6 +39,7 @@ These applications were installed manually and need to be reinstalled on a new m
 
 | Application | Website | Source | Notes |
 |-------------|---------|--------|-------|
+| Brave | https://brave.com/ | Direct download | Privacy-focused web browser |
 | Claude | https://claude.ai/ | Direct download | AI assistant IDE |
 | Ghostty | https://ghostty.org/ | Direct download | Terminal emulator |
 | Granola | https://granola.ai/ | App Store / Direct | Meeting assistant |
