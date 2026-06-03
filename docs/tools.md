@@ -27,8 +27,42 @@
 | Powerlevel10k | Git clone (installed by omz-plugins.sh) | Advanced zsh theme |
 | zsh-autosuggestions | Git clone (installed by omz-plugins.sh) | Autocomplete suggestions plugin |
 
+## Homebrew Casks (GUI Applications)
+
+| Application | Version | How installed | Purpose |
+|-------------|---------|---------------|---------|
+| tfswitch | Latest | Homebrew Cask | Terraform version switcher |
+
+## Manually Installed Applications (DMG/App Store)
+
+These applications were installed manually and need to be reinstalled on a new machine:
+
+| Application | Source | Notes |
+|-------------|--------|-------|
+| Claude | Direct download | AI assistant IDE |
+| Ghostty | Direct download | Terminal emulator |
+| Granola | App Store / Direct | Meeting assistant |
+| Notion | Direct download / App Store | Note-taking & database |
+| Ollama | Direct download | Local LLM runner |
+| Slack | Direct download / App Store | Team communication |
+| Stats | App Store | System stats widget |
+| Tiles | App Store | Window manager |
+| Todoist | App Store | Task management |
+| Warp | Direct download | Terminal with AI |
+| WhatsApp | App Store | Messaging |
+| Zed | Direct download | Code editor |
+
+### Manual Installation Steps
+
+For applications not in Homebrew:
+1. Visit the application's official website
+2. Download the `.dmg` file
+3. Open and drag the `.app` to `/Applications`
+4. Some may require signing in (Notion, Slack, WhatsApp, Todoist, Granola)
+
 ## Notes
 
 - Use `brew list --versions` to see all installed formulae
-- Use `brew list --casks` to see installed applications
+- Use `brew list --casks` to see installed Homebrew cask applications
 - Check Homebrew documentation for specific tool usage
+- Consider adding more apps to this list as casks to `scripts/brew.sh` if they support it

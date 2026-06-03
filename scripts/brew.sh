@@ -30,4 +30,8 @@ brew install \
   thefuck \
   zsh-syntax-highlighting
 
-echo "✓ Homebrew packages installed"
+# Install Homebrew casks (GUI applications)
+brew install --cask \
+  tfswitch
+
+echo "✓ Homebrew packages and casks installed"
