@@ -126,4 +126,4 @@ eval $(thefuck --alias)
 source <(fzf --zsh)
 
 # opencode
-export PATH=/Users/emulanob/.opencode/bin:$PATH
+export PATH=$HOME/.opencode/bin:$PATH
