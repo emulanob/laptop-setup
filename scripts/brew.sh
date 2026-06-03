@@ -17,15 +17,17 @@ brew install \
   bash \
   zsh \
   awscli \
+  bat \
   direnv \
   eza \
   fzf \
-  git-delta \
   gh \
+  git-delta \
   helm \
   jq \
   k3d \
   k9s \
-  bat
+  thefuck \
+  zsh-syntax-highlighting
 
 echo "✓ Homebrew packages installed"
