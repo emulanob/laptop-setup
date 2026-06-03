@@ -37,20 +37,20 @@
 
 These applications were installed manually and need to be reinstalled on a new machine:
 
-| Application | Source | Notes |
-|-------------|--------|-------|
-| Claude | Direct download | AI assistant IDE |
-| Ghostty | Direct download | Terminal emulator |
-| Granola | App Store / Direct | Meeting assistant |
-| Notion | Direct download / App Store | Note-taking & database |
-| Ollama | Direct download | Local LLM runner |
-| Slack | Direct download / App Store | Team communication |
-| Stats | App Store | System stats widget |
-| Tiles | App Store | Window manager |
-| Todoist | App Store | Task management |
-| Warp | Direct download | Terminal with AI |
-| WhatsApp | App Store | Messaging |
-| Zed | Direct download | Code editor |
+| Application | Website | Source | Notes |
+|-------------|---------|--------|-------|
+| Claude | https://claude.ai/ | Direct download | AI assistant IDE |
+| Ghostty | https://ghostty.org/ | Direct download | Terminal emulator |
+| Granola | https://granola.ai/ | App Store / Direct | Meeting assistant |
+| Notion | https://notion.so/ | Direct download / App Store | Note-taking & database |
+| Ollama | https://ollama.ai/ | Direct download | Local LLM runner |
+| Slack | https://slack.com/ | Direct download / App Store | Team communication |
+| Stats | https://seense.com/stats/ | App Store | System stats widget |
+| Tiles | https://www.tiles.app/ | App Store | Window manager |
+| Todoist | https://todoist.com/ | App Store | Task management |
+| Warp | https://www.warp.dev/ | Direct download | Terminal with AI |
+| WhatsApp | https://www.whatsapp.com/ | App Store | Messaging |
+| Zed | https://zed.dev/ | Direct download | Code editor |
 
 ### Manual Installation Steps
 
