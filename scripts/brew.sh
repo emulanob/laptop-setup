@@ -27,6 +27,9 @@ brew install \
   jq \
   k3d \
   k9s \
+  node \
+  opencode \
+  ripgrep \
   thefuck \
   zsh-syntax-highlighting
 

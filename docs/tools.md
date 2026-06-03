@@ -16,6 +16,9 @@
 | jq | 1.8.1 | Homebrew | JSON CLI tool |
 | k3d | 5.8.3 | Homebrew | Local Kubernetes cluster |
 | k9s | 0.50.18 | Homebrew | Kubernetes CLI dashboard |
+| node | Latest | Homebrew | JavaScript runtime (required by opencode) |
+| opencode | 1.15.13 | Homebrew | AI coding agent for the terminal |
+| ripgrep | Latest | Homebrew | Fast text search tool (required by opencode) |
 | thefuck | Latest | Homebrew | Corrects your previous console command |
 | zsh-syntax-highlighting | Latest | Homebrew | Fish-like syntax highlighting for zsh |
 
