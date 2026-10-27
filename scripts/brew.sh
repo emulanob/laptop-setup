@@ -27,14 +27,50 @@ brew install \
   jq \
   k3d \
   k9s \
+  kubernetes-cli \
   node \
   opencode \
   ripgrep \
   thefuck \
-  zsh-syntax-highlighting
+  tldr \
+  wget \
+  zsh-syntax-highlighting \
+  floci-io/floci/floci
 
 # Install Homebrew casks (GUI applications)
-brew install --cask \
-  tfswitch
+# ponytail: --adopt takes over apps already in /Applications instead of failing on them
+brew install --cask --adopt \
+  brave-browser \
+  caffeine \
+  claude \
+  cursor \
+  docker-desktop \
+  ghostty \
+  granola \
+  microsoft-excel \
+  microsoft-onenote \
+  microsoft-outlook \
+  microsoft-powerpoint \
+  microsoft-word \
+  notion \
+  ollama-app \
+  onedrive \
+  slack \
+  spotify \
+  stats \
+  tfswitch \
+  tiles \
+  todoist-app \
+  warp \
+  whatsapp \
+  zed \
+  zoom
+
+# Global npm packages
+npm install -g vercel awsp
+
+# Native installers (self-updating, live in ~/.local/bin)
+command -v uv &>/dev/null || curl -LsSf https://astral.sh/uv/install.sh | sh
+command -v claude &>/dev/null || curl -fsSL https://claude.ai/install.sh | bash
 
 echo "✓ Homebrew packages and casks installed"

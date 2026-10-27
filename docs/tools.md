@@ -16,10 +16,18 @@
 | jq | 1.8.1 | Homebrew | JSON CLI tool |
 | k3d | 5.8.3 | Homebrew | Local Kubernetes cluster |
 | k9s | 0.50.18 | Homebrew | Kubernetes CLI dashboard |
+| kubernetes-cli | 1.37.1 | Homebrew | kubectl |
 | node | Latest | Homebrew | JavaScript runtime (required by opencode) |
 | opencode | 1.15.13 | Homebrew | AI coding agent for the terminal |
 | ripgrep | Latest | Homebrew | Fast text search tool (required by opencode) |
 | thefuck | Latest | Homebrew | Corrects your previous console command |
+| tldr | 1.6.1 | Homebrew | Simplified man pages |
+| wget | 1.25.0 | Homebrew | HTTP file downloader |
+| floci | 0.2.3 | Homebrew (tap `floci-io/floci`) | CLI for the Floci local AWS emulator |
+| vercel | 54.8.0 | npm (global) | Vercel CLI |
+| awsp | 0.2.0 | npm (global) | AWS profile switcher |
+| uv | 0.11.19 | Native installer (astral.sh) | Python package/project manager |
+| claude (Claude Code) | 2.1.287 | Native installer (claude.ai/install.sh) | AI coding agent CLI |
 | zsh-syntax-highlighting | Latest | Homebrew | Fish-like syntax highlighting for zsh |
 
 ## Shell Configuration
@@ -32,41 +40,39 @@
 
 ## Homebrew Casks (GUI Applications)
 
-| Application | Version | How installed | Purpose |
-|-------------|---------|---------------|---------|
-| tfswitch | Latest | Homebrew Cask | Terraform version switcher |
+All installed by `scripts/brew.sh`. Apps that need signing in after install: Claude, Granola, Microsoft 365 apps, Notion, OneDrive, Slack, Spotify, Todoist, WhatsApp, Zoom.
 
-## Manually Installed Applications (DMG/App Store)
-
-These applications were installed manually and need to be reinstalled on a new machine:
-
-| Application | Website | Source | Notes |
-|-------------|---------|--------|-------|
-| Brave | https://brave.com/ | Direct download | Privacy-focused web browser |
-| Claude | https://claude.ai/ | Direct download | AI assistant IDE |
-| Ghostty | https://ghostty.org/ | Direct download | Terminal emulator |
-| Granola | https://granola.ai/ | App Store / Direct | Meeting assistant |
-| Notion | https://notion.so/ | Direct download / App Store | Note-taking & database |
-| Ollama | https://ollama.ai/ | Direct download | Local LLM runner |
-| Slack | https://slack.com/ | Direct download / App Store | Team communication |
-| Stats | https://seense.com/stats/ | App Store | System stats widget |
-| Tiles | https://www.tiles.app/ | App Store | Window manager |
-| Todoist | https://todoist.com/ | App Store | Task management |
-| Warp | https://www.warp.dev/ | Direct download | Terminal with AI |
-| WhatsApp | https://www.whatsapp.com/ | App Store | Messaging |
-| Zed | https://zed.dev/ | Direct download | Code editor |
-
-### Manual Installation Steps
-
-For applications not in Homebrew:
-1. Visit the application's official website
-2. Download the `.dmg` file
-3. Open and drag the `.app` to `/Applications`
-4. Some may require signing in (Notion, Slack, WhatsApp, Todoist, Granola)
+| Cask | Application | Purpose |
+|------|-------------|---------|
+| brave-browser | Brave | Privacy-focused web browser |
+| caffeine | Caffeine | Keep the Mac awake |
+| claude | Claude | Claude desktop app |
+| cursor | Cursor | AI code editor |
+| docker-desktop | Docker Desktop | Docker engine + GUI |
+| ghostty | Ghostty | Terminal emulator |
+| granola | Granola | Meeting assistant |
+| microsoft-excel | Microsoft Excel | Spreadsheets |
+| microsoft-onenote | Microsoft OneNote | Notes |
+| microsoft-outlook | Microsoft Outlook | Email & calendar |
+| microsoft-powerpoint | Microsoft PowerPoint | Presentations |
+| microsoft-word | Microsoft Word | Documents |
+| notion | Notion | Note-taking & database |
+| ollama-app | Ollama | Local LLM runner |
+| onedrive | OneDrive | Cloud file sync |
+| slack | Slack | Team communication |
+| spotify | Spotify | Music |
+| stats | Stats | Menu bar system monitor |
+| tfswitch | tfswitch | Terraform version switcher |
+| tiles | Tiles | Window manager |
+| todoist-app | Todoist | Task management |
+| warp | Warp | Terminal with AI |
+| whatsapp | WhatsApp | Messaging |
+| zed | Zed | Code editor |
+| zoom | Zoom | Video calls |
 
 ## Notes
 
 - Use `brew list --versions` to see all installed formulae
 - Use `brew list --casks` to see installed Homebrew cask applications
 - Check Homebrew documentation for specific tool usage
-- Consider adding more apps to this list as casks to `scripts/brew.sh` if they support it
+- Prefer a Homebrew cask over a manual download when adding new apps (`brew search --cask <name>`)
